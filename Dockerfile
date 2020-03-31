@@ -30,7 +30,7 @@ RUN apk add --no-cache \
     rsync \
     zlib-dev \
     libzip-dev \
-    libonig-dev
+    oniguruma-dev
 
 # Install PECL and PEAR extensions
 RUN pecl install \
